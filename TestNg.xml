@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <listeners>
+        <listener class-name="custom_listeners.Listener"/>
+    </listeners>
+    <test name="Mattel_project">
+        <classes>
+            <class name="Test_Scripts_Package.Homepage_scripts"/>
+            <class name="Test_Scripts_Package.Shop_scripts"/>
+            <class name="Test_Scripts_Package.Shop_By_Age"/>
+            <class name="Test_Scripts_Package.Activites_for_kids"/>
+        </classes>
+    </test>
+</suite>
